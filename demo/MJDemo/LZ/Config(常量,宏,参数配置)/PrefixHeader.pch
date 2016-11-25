@@ -1,0 +1,43 @@
+//
+//  PrefixHeader.pch
+//  LZ
+//
+//  Created by LXY on 16/11/4.
+//  Copyright © 2016年 AVGD. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//masonry取消mas宏
+#define MAS_SHORTHAND
+
+//头文件
+#import "LZRootNavigationController.h"
+#import "LZRootViewController.h"
+#import "LZUserManager.h"
+#import "LZTabBarControllerConfig.h"
+#import "MJAFNetWorking.h"
+#import "LZPublicManager.h"
+
+//配置文件
+#import "APPKeyConfig.h"
+#import "Const.h"
+#import "Notification.h"
+#import "Macro.h"
+
+//第三方
+#import <Masonry/Masonry.h> 
+#import "MJRefresh.h"
+#import <MJExtension/MJExtension.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "AFNetworking.h"
+#import "SVProgressHUD.h"
+#import "RegExpValidate.h"
+
+
+//类目
+#import "UIColor+HexColor.h"
+
+
+#endif /* PrefixHeader_pch */
